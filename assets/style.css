@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --boo-main: rgba(255, 105, 0, 1);
+    --boo-discount: rgba(255, 0, 0, 1);
+    --boo-sust: rgba(0, 128, 0, 1); 
+    --boo-font-light: rgba(231, 231, 230, 1);
+    --boo-font-dark: rgba(0, 0, 0, 1);
+    --boo-foot: rgba(26, 26, 26, 1);
+
+}   
