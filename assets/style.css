@@ -31,6 +31,7 @@ header li>a {
     text-decoration: none;
     font-weight: 700;
     color: var(--boo-font-light);
+    padding-right: 1rem;
 }
 
 li>a:hover {
@@ -152,6 +153,10 @@ li>a:hover {
 
 .gap {
     gap: 0.5rem;
+}
+
+.gap-big{
+    gap:2rem
 }
 
 .row {
