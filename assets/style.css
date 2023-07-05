@@ -1,15 +1,123 @@
-*{
+/* #region Common */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+body {
+    min-width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-inline{
+    list-style: none;
+
+}
+.list-inline li{
+    display: inline-block;
+    
+}
+li>a{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--boo-font-light);
+    padding: 0 0.5rem;
+
+}
+li>a:hover{
+text-decoration: underline;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+/* #endregion Common */
+
+/* #region Utilities */
+:root {
     --boo-main: rgba(255, 105, 0, 1);
     --boo-discount: rgba(255, 0, 0, 1);
-    --boo-sust: rgba(0, 128, 0, 1); 
+    --boo-sust: rgba(0, 128, 0, 1);
     --boo-font-light: rgba(231, 231, 230, 1);
     --boo-font-dark: rgba(0, 0, 0, 1);
     --boo-foot: rgba(26, 26, 26, 1);
+}
 
-}   
+
+.container {
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.py-1{
+    padding: 1rem 0;
+}
+
+.py-5{
+    padding-top: 5rem;
+}
+
+.m2{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.row{
+    display: flex;
+}
+
+.col-3{
+    width: calc(100% /12 * 3);
+}
+.center{
+    justify-content: center;
+}
+
+
+/* #endregion Utilities */
+
+/* #region Debug */
+
+
+/* #endregion Debug */
+
+/* #region Header */
+header {
+    background-color: var(--boo-main);
+    box-shadow: 1px 2px 6px grey;
+}
+
+.logo,
+.menu,
+.icons {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    color: var(--boo-font-light);
+}
+
+.icons{
+    justify-content: end ;
+}
+
+.logo{
+    justify-content: center;
+}
+
+.icons i{
+    padding: 0 0.5rem;
+}
+/* #endregion Header */
+
+/* #region Body */
+
+
+/* #endregion Body */
